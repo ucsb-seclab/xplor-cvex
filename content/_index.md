@@ -4,4 +4,4 @@ description: A Collection of our Completed CVEXes
 layout: single
 ---
 
-CVEXes go here.
+{{< CVEX-links >}}
