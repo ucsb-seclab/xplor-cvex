@@ -1,0 +1,3 @@
+[submodule "cvex/themes/hugo-xterm"]
+	path = cvex/themes/hugo-xterm
+	url = https://github.com/manid2/hugo-xterm

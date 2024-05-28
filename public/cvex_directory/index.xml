@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CVEX_directories on CVEX</title>
+    <link>http://localhost:1313/cvex_directory/</link>
+    <description>Recent content in CVEX_directories on CVEX</description>
+    <generator>Hugo -- gohugo.io</generator>
+      <language>en-us</language>
+      <lastBuildDate>Sun, 19 Dec 2021 20:39:39 -0800</lastBuildDate><atom:link href="http://localhost:1313/cvex_directory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVEX-2017-1000499</title>
+      <link>http://localhost:1313/CVEX-2017-1000499/</link>
+      <pubDate>Sun, 19 Dec 2021 20:39:39 -0800</pubDate>
+
+      <guid>http://localhost:1313/CVEX-2017-1000499/</guid>
+      <description>Description goes here.</description>
+      <content>&lt;p&gt;Description goes here.&lt;/p&gt;
+</content>
+    </item>
+  </channel>
+</rss>
