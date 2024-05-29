@@ -1,0 +1,13 @@
+{
+    "name": "gh-api-docker",
+    "version": "1.0.0",
+    "description": "A Docker container to call GitHub API",
+    "main": "api.js",
+    "scripts": {
+      "start": "node api.js"
+    },
+    "dependencies": {
+      "@octokit/rest": "^19.0.7"
+    }
+  }
+  
