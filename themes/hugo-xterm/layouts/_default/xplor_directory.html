@@ -1,0 +1,30 @@
+{{- define "main" }}
+  <article class="post">
+    <header class="post-header">
+      {{- if .Title }}
+        <h1>{{ .Title | plainify }}</h1>
+      {{- end }}
+
+      {{- with .Params.Description -}}
+        <h4>{{ . }}</h4>
+      {{- end -}}
+    </header>
+
+    <div class="post-content">
+        <h5>{{- with .Content }}
+            {{ . }}
+        {{- end }}</h5>
+        
+        {{ range $.Site.Data.cvex_data.cvex_v2.cvex_v2_directory }}
+        <strong>{{.cveid}}</strong>: {{ .cvexid }}  
+        <ul>
+            <li>Authors: {{ delimit .authors ", " }}</li>
+        </ul>
+        {{ end }}
+    </div>
+
+    <footer class="post-footer">
+      {{- partial "pagination.html" . -}}
+    </footer>
+  </article>
+{{- end }}

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CVEXs on CVEX</title>
+    <title>CVEXs on Common Vulneravilities and Exposures with Exploits</title>
     <link>http://localhost:1313/cvex/</link>
-    <description>Recent content in CVEXs on CVEX</description>
+    <description>Recent content in CVEXs on Common Vulneravilities and Exposures with Exploits</description>
     <generator>Hugo -- gohugo.io</generator>
       <language>en-us</language>
       <lastBuildDate>Mon, 27 May 2024 15:34:00 -0700</lastBuildDate><atom:link href="http://localhost:1313/cvex/index.xml" rel="self" type="application/rss+xml" />

@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/Users/gracefeng/Desktop/CVEX Website/xplor-cvex",
+	"sourceRoot": "/Users/admin/Desktop/site",
 	"sources": [
 		"themes/hugo-xterm/assets/styles/app.scss",
 		"themes/hugo-xterm/assets/styles/_variables.scss",

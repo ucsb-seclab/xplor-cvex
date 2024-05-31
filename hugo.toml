@@ -1,4 +1,4 @@
 baseURL = 'http://xplor-cvex.seclab.cs.ucsb.edu/'
 languageCode = 'en-us'
-title = 'CVEX'
+title = 'Common Vulneravilities and Exposures with Exploits'
 theme = 'hugo-xterm'

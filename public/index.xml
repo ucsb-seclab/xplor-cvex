@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Common Vulnerability and Exposure Executables (CVEX) on CVEX</title>
+    <title>Common Vulnerability and Exposure Executables (CVEX) on Common Vulneravilities and Exposures with Exploits</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Common Vulnerability and Exposure Executables (CVEX) on CVEX</description>
+    <description>Recent content in Common Vulnerability and Exposure Executables (CVEX) on Common Vulneravilities and Exposures with Exploits</description>
     <generator>Hugo -- gohugo.io</generator>
       <language>en-us</language>
       <lastBuildDate>Mon, 27 May 2024 15:34:00 -0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -36,6 +36,38 @@
       <description>Description goes here.</description>
       <content>&lt;p&gt;Description goes here.&lt;/p&gt;
 </content>
+    </item>
+    <item>
+      <title>CVEX Directory</title>
+      <link>http://localhost:1313/directoryv1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>http://localhost:1313/directoryv1/</guid>
+      <description>CVEX v2.0 takes inspiration from past CVEXes created from the past years. Using a similar exploiter vs recorder model, we&amp;rsquo;ve further divided our CVEs into 3 main containers: server, client, and listener while also enabling tcpdump traffic files and stack traces to be stored in a user&amp;rsquo;s local directory for better analysis of the exploit</description>
+      <content>&lt;p&gt;&lt;strong&gt;CVEX v2.0&lt;/strong&gt; takes inspiration from past CVEXes created from the past years.
+Using a similar &lt;code&gt;exploiter&lt;/code&gt; vs &lt;code&gt;recorder&lt;/code&gt; model, we&amp;rsquo;ve further divided our CVEs into 3 main
+containers: &lt;code&gt;server&lt;/code&gt;, &lt;code&gt;client&lt;/code&gt;, and &lt;code&gt;listener&lt;/code&gt; while also enabling &lt;code&gt;tcpdump&lt;/code&gt; traffic files
+and stack traces to be stored in a user&amp;rsquo;s local directory for better analysis of the exploit&lt;/p&gt;
+</content>
+    </item>
+    <item>
+      <title>XPLOR CVEX Directory</title>
+      <link>http://localhost:1313/directoryv2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>http://localhost:1313/directoryv2/</guid>
+      <description>CVEX v2.0 was a collaborative effort</description>
+      <content>&lt;p&gt;&lt;strong&gt;CVEX v2.0&lt;/strong&gt; was a collaborative effort&lt;/p&gt;
+</content>
+    </item>
+    <item>
+      <title>Xplor CVEX</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>http://localhost:1313/research/</guid>
+      <description></description>
+      <content></content>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,260 @@
+{
+  "cvex_v2_directory" : [
+  {
+    "cveid": "CVE-2012-1823",
+    "cvexid": "cvex-210825-001",
+    "authors":["PriyankaBose"]
+  },
+  {
+    "cveid": "CVE-2019-12725",
+    "cvexid": "cvex-210825-003",
+    "authors": ["degrigis", "pagabuc"]
+  },
+  {
+    "cveid": "CVE-2019-16278",
+    "cvexid": "cvex-210825-004",
+    "authors":["nvmb3r"]
+  },
+  {
+    "cveid": "CVE-2014-4511",
+    "cvexid": "cvex-210825-006",
+    "authors":["nvmb3r"]
+  },
+  {
+    "cveid": "CVE-2018-16763",
+    "cvexid": "cvex-210825-007",
+    "authors":["nvmb3r"]
+  },
+  {
+    "cveid": "CVE-2015-2208",
+    "cvexid": "cvex-210825-008",
+    "authors":["nvmb3r"]
+  },
+  {
+    "cveid": "CVE-2017-1000486",
+    "cvexid": "cvex-210825-009",
+    "authors":["nvmb3r"]
+  },
+  {
+    "cveid": "CVE-2019-16662",
+    "cvexid": "cvex-210825-010",
+    "authors":["fab1ano"]
+  },
+  {
+    "cveid": "CVE-2019-16663",
+    "cvexid": "cvex-210825-011",
+    "authors":["fab1ano"]
+  },
+  {
+    "cveid": "CVE-2020-25952",
+    "cvexid": "cvex-210825-012",
+    "authors":["fab1ano"]
+  },
+  {
+      "cveid": "CVE-2020-35151",
+      "cvexid": "cvex-210825-013",
+      "authors":["fab1ano"]
+  },
+  {
+      "cveid": "CVE-2011-0751",
+      "cvexid": "cvex-210825-014",
+      "authors":["9yte"]
+  },
+  {
+      "cveid": "CVE-2017-5638",
+      "cvexid": "cvex-210825-015",
+      "authors":["9yte"]
+  },
+  {
+      "cveid": "CVE-2016-3714",
+      "cvexid": "cvex-210825-016",
+      "authors":["Trevillie"]
+  },{
+      "cveid": "CVE-2019-14234",
+      "cvexid": "cvex-210825-017",
+      "authors":["Trevillie"]
+  },
+  {
+      "cveid": "CVE-210825-018",
+      "cvexid": "cvex-210825-018",
+      "authors":["Trevillie"],
+      "valid": false
+  },
+  {
+      "cveid": "CVE-2017-12650",
+      "cvexid": "cvex-210825-019",
+      "authors":["robmcl4"]
+  },
+  {
+      "cveid": "CVE-2015-1427",
+      "cvexid": "cvex-210825-020",
+      "authors":["xavierholt"]
+  },
+  {
+      "cveid": "CVE-2018-16509",
+      "cvexid": "cvex-210825-021",
+      "authors":["xavierholt"]
+  },
+  {
+      "cveid": "CVE-2018-19475",
+      "cvexid": "cvex-210825-022",
+      "authors":["xavierholt"]
+  }
+  ,
+  {
+      "cveid": "CVE-2019-6116",
+      "cvexid": "cvex-210825-023",
+      "authors":["xavierholt"]
+  },
+  {
+      "cveid": "CVE-2018-11776",
+      "cvexid": "cvex-210825-024",
+      "authors":["ruaronicola"]
+  },
+  {
+      "cveid": "CVE-2019-15107",
+      "cvexid": "cvex-210825-025",
+      "authors":["dipanjan"]
+  },
+  {
+      "cveid": "CVE-2019-9193",
+      "cvexid": "cvex-210825-026",
+      "authors":["xavierholt"]
+  
+  },
+  {
+      "cveid":"CVE-2014-6271",
+      "cvexid":"cvex-210825-027",
+      "authors":["xavierholt"]
+  },
+  {
+      "cveid":"CVE-2015-3306",
+      "cvexid":"cvex-210825-028",
+      "authors":["rjt-gupta"]
+  },
+  {
+      "cveid":"CVE-2017-5941",
+      "cvexid":"cvex-210825-029",
+      "authors":["rjt-gupta"]
+  },
+  {
+      "cveid":"CVE-2020-5192",
+      "cvexid":"cvex-210825-030",
+      "authors":["dipanjan"]
+  },
+  {
+      "cveid":"CVE-2020-25487",
+      "cvexid":"cvex-210825-031",
+      "authors":["dipanjan"]
+  },
+  {
+      "cveid":"CVE-2020-29283",
+      "cvexid":"cvex-210825-032",
+      "authors":["PriyankaBose"]
+  },
+  {
+      "cveid":"CVE-2019-6340",
+      "cvexid":"cvex-210825-033",
+      "authors":["ruaronicola"]
+  },
+  {
+      "cveid":"CVE-2017-17405",
+      "cvexid":"cvex-210825-034",
+      "authors":["Trevillie"]
+  },
+  {
+      "cveid": "CVE-2018-8733",
+      "cvexid": "cvex-210825-035",
+      "authors": ["9yte"]
+  },
+
+
+
+  {
+      "cveid": "CVE-2018-7600",
+      "cvexid": "cvex-210825-036",
+      "authors": ["pagabuc"]
+  },
+  {
+      "cveid": "CVE-2019-15715",
+      "cvexid": "cvex-210825-037",
+      "authors": ["gal1ium"]
+  },
+  {
+      "cveid": "CVE-2018-17181",
+      "cvexid": "cvex-210825-038",
+      "authors": ["pagabuc", "f-kalantari"]
+  },
+  {
+      "cveid": "CVE-2018-15143",
+      "cvexid": "cvex-210825-039",
+      "authors": ["pagabuc", "f-kalantari"]
+  },
+  {
+      "cveid": "CVE-2018-15145",
+      "cvexid": "cvex-210825-040",
+      "authors": ["pagabuc", "f-kalantari"]
+  },
+  {
+      "cveid": "CVE-2018-17179",
+      "cvexid": "cvex-210825-041",
+      "authors": ["pagabuc", "robmcl4"]
+  },
+  {
+      "cveid": "CVE-2018-15144",
+      "cvexid": "cvex-210825-042",
+      "authors": ["pagabuc", "robmcl4"]
+  },
+  {
+      "cveid": "CVE-2018-15146",
+      "cvexid": "cvex-210825-043",
+      "authors": ["pagabuc", "robmcl4"]
+  },
+  {
+      "cveid": "CVE-2018-15147",
+      "cvexid": "cvex-210825-044",
+      "authors": ["pagabuc", "robmcl4"]
+  },
+  {
+      "cveid": "CVE-2018-15148",
+      "cvexid": "cvex-210825-045",
+      "authors": ["pagabuc", "robmcl4"]
+  },
+  {
+      "cveid": "CVE-2018-15149",
+      "cvexid": "cvex-210825-046",
+      "authors": ["pagabuc", "robmcl4"]
+  },
+  {
+      "cveid": "CVE-2018-15151",
+      "cvexid": "cvex-210825-047",
+      "authors": ["pagabuc", "robmcl4"]
+  },
+  {
+      "cveid": "CVE-2018-15150",
+      "cvexid": "cvex-210825-048",
+      "authors": ["pagabuc", "robmcl4"]
+  },
+  {
+      "cveid": "CVE-2018-15153",
+      "cvexid": "cvex-210825-049",
+      "authors": ["pagabuc", "robmcl4"]
+  },
+  {
+      "cveid": "CVE-2021-41773",
+      "cvexid": "cvex-210825-050",
+      "authors": ["etrickel"]
+  },
+  {
+      "cveid": "CVE-2021-32305",
+      "cvexid": "cvex-211021-001",
+      "authors": ["pagabuc"]
+  },
+  {
+      "cveid": "CVE-2019-10028",
+      "cvexid": "cvex-211109-001",
+      "authors": ["Zion L. Basque", "Paul Emge"]
+  }
+]
+}
+
