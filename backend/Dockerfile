@@ -15,10 +15,10 @@ COPY . .
 
 # Environment variables
 ENV GITHUB_USERNAME=ucsb-seclab
-ENV GITHUB_TOKEN=<INSERT PUBLIC ACCESS TOKEN> 
+ENV GITHUB_TOKEN=<Token>
 ENV PACKAGE_TYPE=container
 
 EXPOSE 80
 
 # Run the application
-CMD ["node", "api.js"]
+CMD ["node", "api.js", ">", "output.json"]

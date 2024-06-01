@@ -5,3 +5,5 @@ layout: single
 draft: true
 url: /research/
 ---
+
+This is the page that outlines our research goals and contributions

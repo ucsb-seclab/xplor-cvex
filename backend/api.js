@@ -81,6 +81,6 @@ async function listCvexContainers(){
 
 // testing
 // let res = fetchPackageViaCveId("CVE-2012-1823", "exploiter");
-// listCvexContainers();
+listCvexContainers();
 // listPackages();
 // fetchPackage("cvex-210825-010/exploiter");

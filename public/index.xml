@@ -66,8 +66,9 @@ and stack traces to be stored in a user&amp;rsquo;s local directory for better a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 
       <guid>http://localhost:1313/research/</guid>
-      <description></description>
-      <content></content>
+      <description>This is the page that outlines our research goals and contributions</description>
+      <content>&lt;p&gt;This is the page that outlines our research goals and contributions&lt;/p&gt;
+</content>
     </item>
   </channel>
 </rss>
