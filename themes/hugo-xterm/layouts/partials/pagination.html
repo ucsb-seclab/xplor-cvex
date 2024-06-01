@@ -8,12 +8,12 @@
 {{- if .IsPage -}}
   {{- $pgTitle = site.Params.ReadOtherPosts | default "Read other posts" -}}
 
-  {{- with .NextInSection -}}
+  {{- with .PrevInSection -}}
     {{- $pgNext = .Title -}}
     {{- $pgNextLink = .Permalink -}}
   {{- end -}}
 
-  {{- with .PrevInSection -}}
+  {{- with .NextInSection -}}
     {{- $pgPrev = .Title -}}
     {{- $pgPrevLink = .Permalink -}}
   {{- end -}}
@@ -36,7 +36,7 @@
     <div class="buttons fill">
       {{- if $pgPrevLink }}
         <a href="{{ $pgPrevLink }}" class="button">
-          <span class="icon">&lArr;</span>
+          <span class="icon left">&lArr;</span>
           <span class="label">{{ $pgPrev }}</span>
         </a>
       {{- end }}
