@@ -23,8 +23,9 @@
       <pubDate>Mon, 27 May 2024 15:34:00 -0700</pubDate>
 
       <guid>http://localhost:1313/CVEX-2023-28155/</guid>
-      <description></description>
-      <content></content>
+      <description>Github implementation</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://github.com/ucsb-seclab/cvex-xplor/tree/main/CVEX-2023-28155&#34;&gt;Github implementation&lt;/a&gt;&lt;/p&gt;
+</content>
     </item>
     <item>
       <title>CVEX-2023-31419</title>
@@ -32,8 +33,49 @@
       <pubDate>Mon, 27 May 2024 15:34:00 -0700</pubDate>
 
       <guid>http://localhost:1313/CVEX-2023-31419/</guid>
-      <description></description>
-      <content></content>
+      <description>Github implementation</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://github.com/ucsb-seclab/cvex-xplor/tree/main/CVEX-2023-31419&#34;&gt;Github implementation&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    <item>
+      <title>CVEX-2023-42282</title>
+      <link>http://localhost:1313/CVEX-2023-42282/</link>
+      <pubDate>Mon, 27 May 2024 15:34:00 -0700</pubDate>
+
+      <guid>http://localhost:1313/CVEX-2023-42282/</guid>
+      <description>Github implementation</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://github.com/ucsb-seclab/cvex-xplor/tree/main/CVEX-2023-42282&#34;&gt;Github implementation&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    <item>
+      <title>CVEX-2024-21508</title>
+      <link>http://localhost:1313/CVEX-2024-21508/</link>
+      <pubDate>Mon, 27 May 2024 15:34:00 -0700</pubDate>
+
+      <guid>http://localhost:1313/CVEX-2024-21508/</guid>
+      <description>Github implementation</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://github.com/ucsb-seclab/cvex-xplor/tree/main/CVEX-2024-21508&#34;&gt;Github implementation&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    <item>
+      <title>CVEX-XPLOR</title>
+      <link>http://localhost:1313/CVEX-XPLOR/</link>
+      <pubDate>Mon, 27 May 2024 15:34:00 -0700</pubDate>
+
+      <guid>http://localhost:1313/CVEX-XPLOR/</guid>
+      <description>Github implementation</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://github.com/ucsb-seclab/cvex-xplor/tree/main/prototype-cvex&#34;&gt;Github implementation&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    <item>
+      <title>CVEX-2023-0286</title>
+      <link>http://localhost:1313/CVEX-2023-0286/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>http://localhost:1313/CVEX-2023-0286/</guid>
+      <description>Github implementation</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://github.com/ucsb-seclab/cvex-xplor/tree/main/CVEX-2023-0286&#34;&gt;Github implementation&lt;/a&gt;&lt;/p&gt;
+</content>
     </item>
   </channel>
 </rss>

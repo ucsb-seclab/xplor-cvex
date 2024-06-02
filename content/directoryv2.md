@@ -1,6 +1,6 @@
 ---
 title: "CVEXv2: XPLOR CVEX Directory"
-layout: xplor_directory
+layout: directory2
 weight: 50
 url: /directoryv2/
 ---

@@ -16,11 +16,16 @@
         {{- end }}</h5>
         
         {{ range $.Site.Data.cvex_data.cvex_v1.cvex_v1_directory }}
-        <strong>{{.cveid}}</strong>: {{ .cvexid }}  
-        <ul>
-            <li>Authors: {{ delimit .authors ", " }}</li>
-        </ul>
-        {{ end }}
+        <h3><strong>{{.cveid}}</strong> ⇄ <tt>{{ .id }}</tt></h3>
+        <p><strong>Authors | </strong> {{ delimit .authors ", " }}</p>
+        <p><strong>Docker Images ↴ </strong></p>
+          {{range .images}}
+            <ul>
+              <li><tt>{{ . }}</tt></li>
+            </ul>
+            {{- end}}
+            <p><strong>Short Description | </strong> {{.description}}</p>
+      {{ end }}
     </div>
 
     <footer class="post-footer">

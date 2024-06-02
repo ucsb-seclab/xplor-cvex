@@ -23,8 +23,9 @@
       <pubDate>Mon, 27 May 2024 15:34:00 -0700</pubDate>
 
       <guid>http://localhost:1313/CVEX-2023-28155/</guid>
-      <description></description>
-      <content></content>
+      <description>Github implementation</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://github.com/ucsb-seclab/cvex-xplor/tree/main/CVEX-2023-28155&#34;&gt;Github implementation&lt;/a&gt;&lt;/p&gt;
+</content>
     </item>
     <item>
       <title>CVEX-2023-31419</title>
@@ -32,8 +33,49 @@
       <pubDate>Mon, 27 May 2024 15:34:00 -0700</pubDate>
 
       <guid>http://localhost:1313/CVEX-2023-31419/</guid>
-      <description></description>
-      <content></content>
+      <description>Github implementation</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://github.com/ucsb-seclab/cvex-xplor/tree/main/CVEX-2023-31419&#34;&gt;Github implementation&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    <item>
+      <title>CVEX-2023-42282</title>
+      <link>http://localhost:1313/CVEX-2023-42282/</link>
+      <pubDate>Mon, 27 May 2024 15:34:00 -0700</pubDate>
+
+      <guid>http://localhost:1313/CVEX-2023-42282/</guid>
+      <description>Github implementation</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://github.com/ucsb-seclab/cvex-xplor/tree/main/CVEX-2023-42282&#34;&gt;Github implementation&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    <item>
+      <title>CVEX-2024-21508</title>
+      <link>http://localhost:1313/CVEX-2024-21508/</link>
+      <pubDate>Mon, 27 May 2024 15:34:00 -0700</pubDate>
+
+      <guid>http://localhost:1313/CVEX-2024-21508/</guid>
+      <description>Github implementation</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://github.com/ucsb-seclab/cvex-xplor/tree/main/CVEX-2024-21508&#34;&gt;Github implementation&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    <item>
+      <title>CVEX-XPLOR</title>
+      <link>http://localhost:1313/CVEX-XPLOR/</link>
+      <pubDate>Mon, 27 May 2024 15:34:00 -0700</pubDate>
+
+      <guid>http://localhost:1313/CVEX-XPLOR/</guid>
+      <description>Github implementation</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://github.com/ucsb-seclab/cvex-xplor/tree/main/prototype-cvex&#34;&gt;Github implementation&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    <item>
+      <title>CVEX-2023-0286</title>
+      <link>http://localhost:1313/CVEX-2023-0286/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>http://localhost:1313/CVEX-2023-0286/</guid>
+      <description>Github implementation</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://github.com/ucsb-seclab/cvex-xplor/tree/main/CVEX-2023-0286&#34;&gt;Github implementation&lt;/a&gt;&lt;/p&gt;
+</content>
     </item>
     <item>
       <title>CVEXv1 Directory</title>
@@ -41,7 +83,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 
       <guid>http://localhost:1313/directoryv1/</guid>
-      <description>A Collection of original CVEX v1.0 from SecLab</description>
+      <description> A Collection of original CVEX v1.0 from SecLab </description>
       <content>
 &lt;h3 id=&#34;a-collection-of-original-cvex-v10-from-seclabhttpsgithubcomucsb-seclabcvex&#34;&gt;
   &lt;a href=&#34;https://github.com/ucsb-seclab/CVEX&#34;&gt;A Collection of original CVEX v1.0 from SecLab&lt;/a&gt;
@@ -57,7 +99,7 @@
       <guid>http://localhost:1313/directoryv2/</guid>
       <description>CVEX v2.0 was a collaborative effort from ERSP 2023-2024.
 It takes inspiration from past CVEXes created from the past years. Using a similar exploiter vs recorder model, we&amp;rsquo;ve further divided our CVEs into 3 main containers: server, client, and listener while also enabling tcpdump traffic files and stack traces to be stored in a user&amp;rsquo;s local directory for better analysis of the exploit
-CVEX-2017-1000499CVEX-2023-28155CVEX-2023-31419</description>
+CVEX-2017-1000499 CVEX-2023-28155 CVEX-2023-31419 CVEX-2023-42282 CVEX-2024-21508 CVEX-XPLOR CVEX-2023-0286 </description>
       <content>&lt;p&gt;&lt;strong&gt;CVEX v2.0&lt;/strong&gt; was a collaborative effort from ERSP 2023-2024.&lt;/p&gt;
 &lt;p&gt;It takes inspiration from past CVEXes created from the past years.
 Using a similar &lt;code&gt;exploiter&lt;/code&gt; vs &lt;code&gt;recorder&lt;/code&gt; model, we&amp;rsquo;ve further divided our CVEs into 3 main
@@ -84,6 +126,30 @@ and stack traces to be stored in a user&amp;rsquo;s local directory for better a
       
     
       
+        &lt;li&gt;
+          &lt;a href=&#34;http://localhost:1313/CVEX-2023-42282/&#34;&gt;CVEX-2023-42282&lt;/a&gt;
+        &lt;/li&gt;
+      
+    
+      
+        &lt;li&gt;
+          &lt;a href=&#34;http://localhost:1313/CVEX-2024-21508/&#34;&gt;CVEX-2024-21508&lt;/a&gt;
+        &lt;/li&gt;
+      
+    
+      
+        &lt;li&gt;
+          &lt;a href=&#34;http://localhost:1313/CVEX-XPLOR/&#34;&gt;CVEX-XPLOR&lt;/a&gt;
+        &lt;/li&gt;
+      
+    
+      
+        &lt;li&gt;
+          &lt;a href=&#34;http://localhost:1313/CVEX-2023-0286/&#34;&gt;CVEX-2023-0286&lt;/a&gt;
+        &lt;/li&gt;
+      
+    
+      
     
       
     
@@ -99,7 +165,7 @@ and stack traces to be stored in a user&amp;rsquo;s local directory for better a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 
       <guid>http://localhost:1313/research/</guid>
-      <description>Problem StatementThough the CVE framework standardizes historical security vulnerabilities found across various corporations, it does not provide enough information for researchers or other developers to understand the vulnerability and how it’s exploited from a technical, and practical level. It lacks details ranging from analyses of port mappings and network traffic to remote code execution scripts, all of which may serve towards an elevated understanding of security vulnerabilities and exploits for future security patches.</description>
+      <description>Problem Statement Though the CVE framework standardizes historical security vulnerabilities found across various corporations, it does not provide enough information for researchers or other developers to understand the vulnerability and how it’s exploited from a technical, and practical level. It lacks details ranging from analyses of port mappings and network traffic to remote code execution scripts, all of which may serve towards an elevated understanding of security vulnerabilities and exploits for future security patches.</description>
       <content>
 &lt;h1 id=&#34;problem-statement&#34;&gt;
   Problem Statement

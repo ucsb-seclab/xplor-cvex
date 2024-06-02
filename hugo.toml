@@ -1,4 +1,7 @@
 baseURL = 'http://xplor-cvex.seclab.cs.ucsb.edu/'
 languageCode = 'en-us'
+relativeURLs = true
 title = 'Common Vulneravilities and Exposures with Exploits'
 theme = 'hugo-xterm'
+disableKinds = ["RSS"]
+enableInlineShortcodes = true

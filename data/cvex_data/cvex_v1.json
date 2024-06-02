@@ -1,259 +1,454 @@
 {
     "cvex_v1_directory" : [
     {
-      "cveid": "CVE-2012-1823",
-      "cvexid": "cvex-210825-001",
-      "authors":["PriyankaBose"]
+        "id" : "CVEX-2012-1823",
+        "cveid": "CVE-2012-1823",
+        "cvexid": "cvex-210825-001",
+        "version": 1.0,
+        "authors":["PriyankaBose"],
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-001/target", "ghcr.io/ucsb-seclab/cvex-210825-001/exploiter"],
+        "description": "The PHP CGI in Apache HTTP Server 2.4.0 through 2.4.2 allows remote attackers to execute arbitrary code by leveraging improper handling of query strings that contain a %2F sequence, which is not properly handled by the apr_fnmatch function."
     },
     {
-      "cveid": "CVE-2019-12725",
-      "cvexid": "cvex-210825-003",
-      "authors": ["degrigis", "pagabuc"]
+        "id" : "CVEX-2019-12725",
+        "cveid": "CVE-2019-12725",
+        "cvexid": "cvex-210825-003",
+        "version": 1.0,
+        "authors": ["degrigis", "pagabuc"],
+        "images": ["ghcr.io/ucsb-seclab/cvex-2019-12725/target", "ghcr.io/ucsb-seclab/cvex-2019-12725/exploiter"],
+        "description": "A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an authenticated, remote attacker with administrative privileges on an affected device to execute arbitrary commands."
     },
     {
-      "cveid": "CVE-2019-16278",
-      "cvexid": "cvex-210825-004",
-      "authors":["nvmb3r"]
+        "id" : "CVEX-2019-16278",
+        "cveid": "CVE-2019-16278",
+        "cvexid": "cvex-210825-004",
+        "version": 1.0,
+        "authors":["nvmb3r"],
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-004/target", "ghcr.io/ucsb-seclab/cvex-210825-004/exploiter"],
+        "description": "Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6 allows an attacker to achieve remote code execution via a crafted HTTP request."
     },
     {
-      "cveid": "CVE-2014-4511",
-      "cvexid": "cvex-210825-006",
-      "authors":["nvmb3r"]
+        "id" : "CVEX-2014-4511",
+        "cveid": "CVE-2014-4511",
+        "cvexid": "cvex-210825-006",
+        "version": 1.0,
+        "authors":["nvmb3r"],
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-006/target", "ghcr.io/ucsb-seclab/cvex-210825-006/exploiter"]
     },
     {
-      "cveid": "CVE-2018-16763",
-      "cvexid": "cvex-210825-007",
-      "authors":["nvmb3r"]
+        "id" : "CVEX-2018-16763",
+        "cveid": "CVE-2018-16763",
+        "cvexid": "cvex-210825-007",
+        "version": 1.0,
+        "authors":["nvmb3r"],
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-007/target", "ghcr.io/ucsb-seclab/cvex-210825-007/exploiter"],
+        "description": "TBD"
     },
     {
-      "cveid": "CVE-2015-2208",
-      "cvexid": "cvex-210825-008",
-      "authors":["nvmb3r"]
+        "id" : "CVEX-2015-2208",    
+        "cveid": "CVE-2015-2208",
+        "cvexid": "cvex-210825-008",
+        "version": 1.0,
+        "authors":["nvmb3r"],
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-008/target", "ghcr.io/ucsb-seclab/cvex-210825-008/exploiter"],
+        "description": "TBD"
     },
     {
-      "cveid": "CVE-2017-1000486",
-      "cvexid": "cvex-210825-009",
-      "authors":["nvmb3r"]
+        "id" : "CVEX-2017-1000486",
+        "cveid": "CVE-2017-1000486",
+        "cvexid": "cvex-210825-009",
+        "authors":["nvmb3r"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-009/target", "ghcr.io/ucsb-seclab/cvex-210825-009/exploiter"],
+        "description": "TBD"
     },
     {
-      "cveid": "CVE-2019-16662",
-      "cvexid": "cvex-210825-010",
-      "authors":["fab1ano"]
+        "id" : "CVEX-2019-16662",
+        "cveid": "CVE-2019-16662",
+        "cvexid": "cvex-210825-010",
+        "authors":["fab1ano"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-010/target", "ghcr.io/ucsb-seclab/cvex-210825-010/exploiter"],
+        "description": "TBD"
     },
     {
-      "cveid": "CVE-2019-16663",
-      "cvexid": "cvex-210825-011",
-      "authors":["fab1ano"]
+        "id" : "CVEX-2019-16663",
+        "cveid": "CVE-2019-16663",
+        "cvexid": "cvex-210825-011",
+        "authors":["fab1ano"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-011/target", "ghcr.io/ucsb-seclab/cvex-210825-011/exploiter"],
+        "description": "TBD"
     },
     {
-      "cveid": "CVE-2020-25952",
-      "cvexid": "cvex-210825-012",
-      "authors":["fab1ano"]
+        "id" : "CVEX-2020-25952",
+        "cveid": "CVE-2020-25952",
+        "cvexid": "cvex-210825-012",
+        "authors":["fab1ano"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-012/target", "ghcr.io/ucsb-seclab/cvex-210825-012/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2020-35151",
         "cveid": "CVE-2020-35151",
         "cvexid": "cvex-210825-013",
-        "authors":["fab1ano"]
+        "authors":["fab1ano"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-013/target", "ghcr.io/ucsb-seclab/cvex-210825-013/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2011-0751",
         "cveid": "CVE-2011-0751",
         "cvexid": "cvex-210825-014",
-        "authors":["9yte"]
+        "authors":["9yte"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-014/target", "ghcr.io/ucsb-seclab/cvex-210825-014/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2017-5638",
         "cveid": "CVE-2017-5638",
         "cvexid": "cvex-210825-015",
-        "authors":["9yte"]
+        "authors":["9yte"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-015/target", "ghcr.io/ucsb-seclab/cvex-210825-015/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2016-3714",
         "cveid": "CVE-2016-3714",
         "cvexid": "cvex-210825-016",
-        "authors":["Trevillie"]
-    },{
-        "cveid": "CVE-2019-14234",
-        "cvexid": "cvex-210825-017",
-        "authors":["Trevillie"]
+        "authors":["Trevillie"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-016/target", "ghcr.io/ucsb-seclab/cvex-210825-016/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2019-14234",
+        "cveid": "CVE-2019-14234",
+        "cvexid": "cvex-210825-017",
+        "authors":["Trevillie"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-017/target", "ghcr.io/ucsb-seclab/cvex-210825-017/exploiter"],
+        "description": "TBD"
+    },
+    {
+        "id" : "CVEX-2018-16509",
         "cveid": "CVE-210825-018",
         "cvexid": "cvex-210825-018",
         "authors":["Trevillie"],
-        "valid": false
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-018/target", "ghcr.io/ucsb-seclab/cvex-210825-018/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2017-12650",
         "cveid": "CVE-2017-12650",
         "cvexid": "cvex-210825-019",
-        "authors":["robmcl4"]
+        "authors":["robmcl4"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-019/target", "ghcr.io/ucsb-seclab/cvex-210825-019/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-16509",
         "cveid": "CVE-2015-1427",
         "cvexid": "cvex-210825-020",
-        "authors":["xavierholt"]
+        "authors":["xavierholt"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-020/target", "ghcr.io/ucsb-seclab/cvex-210825-020/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-16509",
         "cveid": "CVE-2018-16509",
         "cvexid": "cvex-210825-021",
-        "authors":["xavierholt"]
+        "authors":["xavierholt"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-021/target", "ghcr.io/ucsb-seclab/cvex-210825-021/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-19475",
         "cveid": "CVE-2018-19475",
         "cvexid": "cvex-210825-022",
-        "authors":["xavierholt"]
-    }
-    ,
+        "authors":["xavierholt"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-022/target", "ghcr.io/ucsb-seclab/cvex-210825-022/exploiter"],
+        "description": "TBD"
+    },
     {
+        "id" : "CVEX-2019-6116",
         "cveid": "CVE-2019-6116",
         "cvexid": "cvex-210825-023",
-        "authors":["xavierholt"]
+        "authors":["xavierholt"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-023/target", "ghcr.io/ucsb-seclab/cvex-210825-023/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-11776",
         "cveid": "CVE-2018-11776",
         "cvexid": "cvex-210825-024",
-        "authors":["ruaronicola"]
+        "authors":["ruaronicola"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-024/target", "ghcr.io/ucsb-seclab/cvex-210825-024/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2019-15107",
         "cveid": "CVE-2019-15107",
         "cvexid": "cvex-210825-025",
-        "authors":["dipanjan"]
+        "authors":["dipanjan"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-025/target", "ghcr.io/ucsb-seclab/cvex-210825-025/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2019-9193",
         "cveid": "CVE-2019-9193",
         "cvexid": "cvex-210825-026",
-        "authors":["xavierholt"]
+        "authors":["xavierholt"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-026/target", "ghcr.io/ucsb-seclab/cvex-210825-026/exploiter"],
+        "description": "TBD"
     
     },
     {
+        "id" : "CVEX-2014-6271",
         "cveid":"CVE-2014-6271",
         "cvexid":"cvex-210825-027",
-        "authors":["xavierholt"]
+        "authors":["xavierholt"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-027/target", "ghcr.io/ucsb-seclab/cvex-210825-027/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2015-3306",
         "cveid":"CVE-2015-3306",
         "cvexid":"cvex-210825-028",
-        "authors":["rjt-gupta"]
+        "authors":["rjt-gupta"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-028/target", "ghcr.io/ucsb-seclab/cvex-210825-028/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2017-5941",
         "cveid":"CVE-2017-5941",
         "cvexid":"cvex-210825-029",
-        "authors":["rjt-gupta"]
+        "authors":["rjt-gupta"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-029/target", "ghcr.io/ucsb-seclab/cvex-210825-029/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2020-5192",
         "cveid":"CVE-2020-5192",
         "cvexid":"cvex-210825-030",
-        "authors":["dipanjan"]
+        "authors":["dipanjan"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-030/target", "ghcr.io/ucsb-seclab/cvex-210825-030/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2020-25487",
         "cveid":"CVE-2020-25487",
         "cvexid":"cvex-210825-031",
-        "authors":["dipanjan"]
+        "authors":["dipanjan"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-031/target", "ghcr.io/ucsb-seclab/cvex-210825-031/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2020-29283",
         "cveid":"CVE-2020-29283",
         "cvexid":"cvex-210825-032",
-        "authors":["PriyankaBose"]
+        "authors":["PriyankaBose"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-032/target", "ghcr.io/ucsb-seclab/cvex-210825-032/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2019-6340",
         "cveid":"CVE-2019-6340",
         "cvexid":"cvex-210825-033",
-        "authors":["ruaronicola"]
+        "authors":["ruaronicola"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-033/target", "ghcr.io/ucsb-seclab/cvex-210825-033/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2017-17405",
         "cveid":"CVE-2017-17405",
         "cvexid":"cvex-210825-034",
-        "authors":["Trevillie"]
+        "authors":["Trevillie"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-034/target", "ghcr.io/ucsb-seclab/cvex-210825-034/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-8733",
         "cveid": "CVE-2018-8733",
         "cvexid": "cvex-210825-035",
-        "authors": ["9yte"]
+        "authors": ["9yte"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-035/target", "ghcr.io/ucsb-seclab/cvex-210825-035/exploiter"],
+        "description": "TBD"
     },
-
-
-
     {
+        "id" : "CVEX-2018-7600",
         "cveid": "CVE-2018-7600",
         "cvexid": "cvex-210825-036",
-        "authors": ["pagabuc"]
+        "authors": ["pagabuc"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-036/target", "ghcr.io/ucsb-seclab/cvex-210825-036/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2019-15715",
         "cveid": "CVE-2019-15715",
         "cvexid": "cvex-210825-037",
-        "authors": ["gal1ium"]
+        "authors": ["gal1ium"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-037/target", "ghcr.io/ucsb-seclab/cvex-210825-037/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-17181",
         "cveid": "CVE-2018-17181",
         "cvexid": "cvex-210825-038",
-        "authors": ["pagabuc", "f-kalantari"]
+        "authors": ["pagabuc", "f-kalantari"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-038/target", "ghcr.io/ucsb-seclab/cvex-210825-038/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-15143",
         "cveid": "CVE-2018-15143",
         "cvexid": "cvex-210825-039",
-        "authors": ["pagabuc", "f-kalantari"]
+        "authors": ["pagabuc", "f-kalantari"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-039/target", "ghcr.io/ucsb-seclab/cvex-210825-039/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-15145",
         "cveid": "CVE-2018-15145",
         "cvexid": "cvex-210825-040",
-        "authors": ["pagabuc", "f-kalantari"]
+        "authors": ["pagabuc", "f-kalantari"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-040/target", "ghcr.io/ucsb-seclab/cvex-210825-040/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-17179",
         "cveid": "CVE-2018-17179",
         "cvexid": "cvex-210825-041",
-        "authors": ["pagabuc", "robmcl4"]
+        "authors": ["pagabuc", "robmcl4"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-041/target", "ghcr.io/ucsb-seclab/cvex-210825-041/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-15144",
         "cveid": "CVE-2018-15144",
         "cvexid": "cvex-210825-042",
-        "authors": ["pagabuc", "robmcl4"]
+        "authors": ["pagabuc", "robmcl4"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-042/target", "ghcr.io/ucsb-seclab/cvex-210825-042/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-15146",
         "cveid": "CVE-2018-15146",
         "cvexid": "cvex-210825-043",
-        "authors": ["pagabuc", "robmcl4"]
+        "authors": ["pagabuc", "robmcl4"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-043/target", "ghcr.io/ucsb-seclab/cvex-210825-043/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-15147",
         "cveid": "CVE-2018-15147",
         "cvexid": "cvex-210825-044",
-        "authors": ["pagabuc", "robmcl4"]
+        "authors": ["pagabuc", "robmcl4"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-044/target", "ghcr.io/ucsb-seclab/cvex-210825-044/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-15148",
         "cveid": "CVE-2018-15148",
         "cvexid": "cvex-210825-045",
-        "authors": ["pagabuc", "robmcl4"]
+        "authors": ["pagabuc", "robmcl4"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-045/target", "ghcr.io/ucsb-seclab/cvex-210825-045/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-15149",
         "cveid": "CVE-2018-15149",
         "cvexid": "cvex-210825-046",
-        "authors": ["pagabuc", "robmcl4"]
+        "authors": ["pagabuc", "robmcl4"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-046/target", "ghcr.io/ucsb-seclab/cvex-210825-046/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-15151",
         "cveid": "CVE-2018-15151",
         "cvexid": "cvex-210825-047",
-        "authors": ["pagabuc", "robmcl4"]
+        "authors": ["pagabuc", "robmcl4"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-047/target", "ghcr.io/ucsb-seclab/cvex-210825-047/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-15150",
         "cveid": "CVE-2018-15150",
         "cvexid": "cvex-210825-048",
-        "authors": ["pagabuc", "robmcl4"]
+        "authors": ["pagabuc", "robmcl4"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-048/target", "ghcr.io/ucsb-seclab/cvex-210825-048/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2018-15153",
         "cveid": "CVE-2018-15153",
         "cvexid": "cvex-210825-049",
-        "authors": ["pagabuc", "robmcl4"]
+        "authors": ["pagabuc", "robmcl4"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-049/target", "ghcr.io/ucsb-seclab/cvex-210825-049/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2021-41773",
         "cveid": "CVE-2021-41773",
         "cvexid": "cvex-210825-050",
-        "authors": ["etrickel"]
+        "authors": ["etrickel"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-050/target", "ghcr.io/ucsb-seclab/cvex-210825-050/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2021-41773",
         "cveid": "CVE-2021-32305",
         "cvexid": "cvex-211021-001",
-        "authors": ["pagabuc"]
+        "authors": ["pagabuc"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-211021-001/target", "ghcr.io/ucsb-seclab/cvex-211021-001/exploiter"],
+        "description": "TBD"
     },
     {
+        "id" : "CVEX-2021-41773",
         "cveid": "CVE-2019-10028",
         "cvexid": "cvex-211109-001",
-        "authors": ["Zion L. Basque", "Paul Emge"]
+        "authors": ["Zion L. Basque", "Paul Emge"],
+        "version": 1.0,
+        "images": ["ghcr.io/ucsb-seclab/cvex-211109-001/target", "ghcr.io/ucsb-seclab/cvex-211109-001/exploiter"],
+        "description": "TBD"
     }
   ]
 }

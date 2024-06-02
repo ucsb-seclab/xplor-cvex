@@ -27,7 +27,7 @@
   href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto+Slab:wght@300;400;500&family=Ubuntu+Mono:ital@0;1&display=swap"
   rel="stylesheet"
 />
-<link href="/cvex/" rel="alternate" type="application/rss+xml" title="Common Vulneravilities and Exposures with Exploits" />
+<link href="../cvex/" rel="alternate" type="application/rss+xml" title="Common Vulneravilities and Exposures with Exploits" />
 <link rel="stylesheet" href="http://localhost:1313/styles.css" />
 </head>
 
@@ -39,11 +39,9 @@
   <div class="navbar__first">
     <ul class="navbar__list borders">
       <li><a href="http://localhost:1313/">Home</a></li>
-      <li><a href="/research/">Xplor</a></li>
-      <li><a href="/cvex_directory/">Directory</a></li>
-      <li><a href="/directoryv1/">CVEXv1 Directory</a></li>
-      <li><a href="/directoryv2/">CVEXv2 Directory</a></li>
-      <li><a href="/research/">About Xplor</a></li>
+      <li><a href="../directoryv1/">CVEXv1.0 Directory</a></li>
+      <li><a href="../directoryv2/">CVEXv2.0 Directory</a></li>
+      <li><a href="../research/">Research Initiative</a></li>
       <li>
         <button class="theme-toggle transparent"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path
@@ -69,6 +67,10 @@
     <div class="item"><a href="http://localhost:1313/CVEX-2017-1000499/"><h2>CVEX-2017-1000499</h2></a><p class="post-meta"><span>2024-05-27</span></p><p class="post-description">phpMyAdmin versions 4.7.x (prior to 4.7.6.1/4.7.7) are vulnerable to a CSRF weakness. By deceiving a user to click on a crafted URL, it is possible to perform harmful database operations such as deleting records, dropping/truncating tables etc.</p></div>
     <div class="item"><a href="http://localhost:1313/CVEX-2023-28155/"><h2>CVEX-2023-28155</h2></a><p class="post-meta"><span>2024-05-27</span></p><p class="post-description">The Request package through 2.88.1 for Node.js allows a bypass of SSRF mitigations via an attacker-controller server that does a cross-protocol redirect (HTTP to HTTPS, or HTTPS to HTTP). This vulnerability only affects products that are no longer supported by the maintainer.</p></div>
     <div class="item"><a href="http://localhost:1313/CVEX-2023-31419/"><h2>CVEX-2023-31419</h2></a><p class="post-meta"><span>2024-05-27</span></p><p class="post-description">A flaw was discovered in Elasticsearch, affecting the _search API that allowed a specially crafted query string to cause a Stack Overflow and ultimately a Denial of Service.</p></div>
+    <div class="item"><a href="http://localhost:1313/CVEX-2023-42282/"><h2>CVEX-2023-42282</h2></a><p class="post-meta"><span>2024-05-27</span></p><p class="post-description">The ip package before 1.1.9 for Node.js might allow SSRF because some IP addresses (such as 0x7f.1) are improperly categorized as globally routable via isPublic.</p></div>
+    <div class="item"><a href="http://localhost:1313/CVEX-2024-21508/"><h2>CVEX-2024-21508</h2></a><p class="post-meta"><span>2024-05-27</span></p><p class="post-description">CVE-2024-21508 is a vulnerability found in versions of the mysql2 &lt;= 3.9.4. This vulnerability allows for Remote Code Execution (RCE) through the readCodeFor function, due to improper validation of the supportBigNumbers and bigNumberStrings values. It does not require any specific privileges or user interaction and can be exploited over a network. The potential impact includes high integrity and confidentiality impact, as well as high availability impact.</p></div>
+    <div class="item"><a href="http://localhost:1313/CVEX-XPLOR/"><h2>CVEX-XPLOR</h2></a><p class="post-meta"><span>2024-05-27</span></p><p class="post-description">A Proof of Concept Demonstration of our CVEX model/framework</p></div>
+    <div class="item"><a href="http://localhost:1313/CVEX-2023-0286/"><h2>CVEX-2023-0286</h2></a><p class="post-description">Clones openssl version 3.0.7, containing a vulnerability that attributes the wrong variable type (ASN1_TYPE rather than ASN1_STRING) to a x509 address, allowing elevation of privilege.</p></div>
 </div>
 
     </div>
@@ -78,7 +80,7 @@
         </main>
         <footer class="site-footer">
 <p class="buildinfo">
-  <time datetime="2024-06-01 16:27:51 PDT">Site built on: 2024-06-01 16:27:51 PDT</time>
+  <time datetime="2024-06-01 19:24:39 PDT">Site built on: 2024-06-01 19:24:39 PDT</time>
 </p>
 <div class="copyright">
   <p></p>
@@ -92,6 +94,6 @@
 <p class="themeinfo">Powered by <a href="https://gohugo.io">Hugo</a>, using theme <a href="https://manid2.github.io/hugo-xterm/">Hugo Xterm</a>.</p>
 </footer>
       </div>
-    </div><script type="text/javascript" src="/bundle.js"></script>
+    </div><script type="text/javascript" src="../bundle.js"></script>
 </body>
 </html>
