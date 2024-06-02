@@ -2,7 +2,6 @@
 title: About Xplor CVEX
 description: 
 layout: single
-draft: true
 url: /research/
 ---
 

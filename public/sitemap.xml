@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/CVEX-2017-1000499/</loc>
+    <loc>http://localhost:1313/CVEX-2017-1000499/</loc>
     <lastmod>2024-05-27T15:34:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/CVEX-2023-28155/</loc>
+    <loc>http://localhost:1313/CVEX-2023-28155/</loc>
     <lastmod>2024-05-27T15:34:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/CVEX-2023-31419/</loc>
+    <loc>http://localhost:1313/CVEX-2023-31419/</loc>
     <lastmod>2024-05-27T15:34:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/CVEX-2023-42282/</loc>
+    <loc>http://localhost:1313/CVEX-2023-42282/</loc>
     <lastmod>2024-05-27T15:34:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/CVEX-2024-21508/</loc>
+    <loc>http://localhost:1313/CVEX-2024-21508/</loc>
     <lastmod>2024-05-27T15:34:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/CVEX-XPLOR/</loc>
+    <loc>http://localhost:1313/CVEX-XPLOR/</loc>
     <lastmod>2024-05-27T15:34:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/CVEX-2023-0286/</loc>
+    <loc>http://localhost:1313/CVEX-2023-0286/</loc>
   </url><url>
-    <loc>//localhost:1313/directoryv1/</loc>
+    <loc>http://localhost:1313/directoryv1/</loc>
   </url><url>
-    <loc>//localhost:1313/directoryv2/</loc>
+    <loc>http://localhost:1313/directoryv2/</loc>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-05-27T15:34:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/cvex/</loc>
+    <loc>http://localhost:1313/cvex/</loc>
     <lastmod>2024-05-27T15:34:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/research/</loc>
+    <loc>http://localhost:1313/research/</loc>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
