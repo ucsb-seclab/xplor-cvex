@@ -33,7 +33,8 @@
         "cvexid": "cvex-210825-006",
         "version": 1.0,
         "authors":["nvmb3r"],
-        "images": ["ghcr.io/ucsb-seclab/cvex-210825-006/target", "ghcr.io/ucsb-seclab/cvex-210825-006/exploiter"]
+        "images": ["ghcr.io/ucsb-seclab/cvex-210825-006/target", "ghcr.io/ucsb-seclab/cvex-210825-006/exploiter"],
+        "description": "Gitlist before 0.5.0 allows remote attackers to execute arbitrary commands via shell metacharacters in the file name in the URI of a request for a (1) blame, (2) file, or (3) stats page, as demonstrated by requests to blame/master/, master/, and stats/master/."
     },
     {
         "id" : "CVEX-2018-16763",
@@ -42,7 +43,7 @@
         "version": 1.0,
         "authors":["nvmb3r"],
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-007/target", "ghcr.io/ucsb-seclab/cvex-210825-007/exploiter"],
-        "description": "TBD"
+        "description": "FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter or the preview/ data parameter. This can lead to Pre-Auth Remote Code Execution."
     },
     {
         "id" : "CVEX-2015-2208",    
@@ -51,7 +52,7 @@
         "version": 1.0,
         "authors":["nvmb3r"],
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-008/target", "ghcr.io/ucsb-seclab/cvex-210825-008/exploiter"],
-        "description": "TBD"
+        "description": "The saveObject function in moadmin.php in phpMoAdmin 1.1.2 allows remote attackers to execute arbitrary commands via shell metacharacters in the object parameter."
     },
     {
         "id" : "CVEX-2017-1000486",
@@ -60,7 +61,7 @@
         "authors":["nvmb3r"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-009/target", "ghcr.io/ucsb-seclab/cvex-210825-009/exploiter"],
-        "description": "TBD"
+        "description": "Primetek Primefaces 5.x is vulnerable to a weak encryption flaw resulting in remote code execution"
     },
     {
         "id" : "CVEX-2019-16662",
@@ -69,7 +70,7 @@
         "authors":["fab1ano"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-010/target", "ghcr.io/ucsb-seclab/cvex-210825-010/exploiter"],
-        "description": "TBD"
+        "description": "Discovered in rConfig 3.9.2. An attacker can directly execute system commands by sending a GET request to ajaxServerSettingsChk.php because the rootUname parameter is passed to the exec function without filtering ==> command execution."
     },
     {
         "id" : "CVEX-2019-16663",
@@ -78,7 +79,7 @@
         "authors":["fab1ano"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-011/target", "ghcr.io/ucsb-seclab/cvex-210825-011/exploiter"],
-        "description": "TBD"
+        "description": "An issue was discovered in rConfig 3.9.2. An attacker can directly execute system commands by sending a GET request to search.crud.php because the catCommand parameter is passed to the exec function without filtering, which can lead to command execution."
     },
     {
         "id" : "CVEX-2020-25952",
@@ -87,7 +88,7 @@
         "authors":["fab1ano"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-012/target", "ghcr.io/ucsb-seclab/cvex-210825-012/exploiter"],
-        "description": "TBD"
+        "description": "SQL injection vulnerability in PHPGurukul User Registration & Login and User Management System With admin panel 2.1 allows remote attackers to execute arbitrary SQL commands and bypass authentication"
     },
     {
         "id" : "CVEX-2020-35151",
@@ -96,7 +97,7 @@
         "authors":["fab1ano"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-013/target", "ghcr.io/ucsb-seclab/cvex-210825-013/exploiter"],
-        "description": "TBD"
+        "description": "The Online Marriage Registration System 1.0 post parameter 'searchdata' in the user/search.php request is vulnerable to Time Based Sql Injection."
     },
     {
         "id" : "CVEX-2011-0751",

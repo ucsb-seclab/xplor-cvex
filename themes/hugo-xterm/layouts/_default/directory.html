@@ -9,25 +9,27 @@
         <h4>{{ . }}</h4>
       {{- end -}}
     </header>
-
     <div class="post-content">
         <h5>{{- with .Content }}
             {{ . }}
         {{- end }}</h5>
-        
-        {{ range $.Site.Data.cvex_data.cvex_v1.cvex_v1_directory }}
-        <h3><strong>{{.cveid}}</strong> ⇄ <tt>{{ .id }}</tt></h3>
-        <p><strong>Authors | </strong> {{ delimit .authors ", " }}</p>
-        <p><strong>Docker Images ↴ </strong></p>
-          {{range .images}}
-            <ul>
-              <li><tt>{{ . }}</tt></li>
-            </ul>
-            {{- end}}
-            <p><strong>Short Description | </strong> {{.description}}</p>
-      {{ end }}
+        <table>
+          <tr>
+            <th style="width:20%"><strong>CVEX</strong></th>
+            <th style="width:50%"><strong>Description</strong></th>
+            <th style="width:30%"><strong>Images</strong></th>
+          </tr>
+          {{ range $.Site.Data.cvex_data.cvex_v1.cvex_v1_directory }}
+          <tr>
+            <td><tt>{{ .id }}</tt></td>
+            <td><strong>Author |</strong> <tt>{{ delimit .authors ", " }}</tt> <br> {{.description}}</td>
+            <!-- <td><code>{{ delimit .images ", " }}</code></td> -->
+            <td><code>{{ range .images }}{{.}}<br>{{end}}</code></td>
+            
+          </tr>
+          {{- end}}
+        </table>
     </div>
-
     <footer class="post-footer">
       {{- partial "pagination.html" . -}}
     </footer>
