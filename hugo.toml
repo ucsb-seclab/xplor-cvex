@@ -1,4 +1,4 @@
-baseURL = 'https://ucsb-seclab.github.io/xplor-cvex/'
+baseURL = '/'
 languageCode = 'en-us'
 relativeURLs = true
 title = 'Common Vulneravilities and Exposures with Exploits'
