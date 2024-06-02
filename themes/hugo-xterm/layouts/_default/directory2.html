@@ -15,12 +15,21 @@
             {{ . }}
         {{- end }}</h5>
         
-        {{ range $.Site.Data.cvex_data.cvex_v2.cvex_v2_directory }}
-        <strong>{{.cveid}}</strong>: {{ .cvexid }}  
-        <ul>
-            <li>Authors: {{ delimit .authors ", " }}</li>
-        </ul>
-        {{ end }}
+        <table>
+          <tr>
+            <th style="width:20%"><strong>CVEX</strong></th>
+            <th style="width:50%"><strong>Description</strong></th>
+            <th style="width:30%"><strong>Images</strong></th>
+          </tr>
+          {{ range $.Site.Data.cvex_data.cvex_v2.cvex_v2_directory }}
+          <tr>
+            <td><tt>{{ .cveid }}</tt></td>
+            <!-- <td><tt><a href={{.cvexid}}>{{.cvexid}}</a></tt></td> -->
+            <td><strong>Author |</strong> <tt>{{ delimit .authors ", " }}</tt> <br> {{.description}}</td>
+            <td><strong>Domain | </strong>{{.domain}}<br><details><small><tt>{{ range .images }}{{.}}<br>{{end}}</tt></small></details></td>
+          </tr>
+          {{- end}}
+        </table>
     </div>
 
     <footer class="post-footer">
