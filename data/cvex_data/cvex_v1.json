@@ -106,7 +106,7 @@
         "authors":["9yte"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-014/target", "ghcr.io/ucsb-seclab/cvex-210825-014/exploiter"],
-        "description": "TBD"
+        "description": "Directory traversal vulnerability in nhttpd (aka Nostromo webserver) before 1.9.4 allows remote attackers to execute arbitrary programs or read arbitrary files via a ..%2f (encoded dot dot slash) in a URI."
     },
     {
         "id" : "CVEX-2017-5638",
@@ -115,7 +115,7 @@
         "authors":["9yte"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-015/target", "ghcr.io/ucsb-seclab/cvex-210825-015/exploiter"],
-        "description": "TBD"
+        "description": "The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string."
     },
     {
         "id" : "CVEX-2016-3714",
@@ -124,7 +124,7 @@
         "authors":["Trevillie"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-016/target", "ghcr.io/ucsb-seclab/cvex-210825-016/exploiter"],
-        "description": "TBD"
+        "description": "The (1) EPHEMERAL, (2) HTTPS, (3) MVG, (4) MSL, (5) TEXT, (6) SHOW, (7) WIN, and (8) PLT coders in ImageMagick before 6.9.3-10 and 7.x before 7.0.1-1 allow remote attackers to execute arbitrary code via shell metacharacters in a crafted image, aka ImageTragick."
     },
     {
         "id" : "CVEX-2019-14234",
@@ -133,7 +133,7 @@
         "authors":["Trevillie"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-017/target", "ghcr.io/ucsb-seclab/cvex-210825-017/exploiter"],
-        "description": "TBD"
+        "description": "An issue was discovered in Django 1.11.x before 1.11.23, 2.1.x before 2.1.11, and 2.2.x before 2.2.4. Due to an error in shallow key transformation, key and index lookups for django.contrib.postgres.fields.JSONField, and key lookups for django.contrib.postgres.fields.HStoreField, were subject to SQL injection. This could, for example, be exploited via crafted use of 'OR 1=1' in a key or index name to return all records, using a suitably crafted dictionary, with dictionary expansion, as the **kwargs passed to the QuerySet.filter() function."
     },
     {
         "id" : "CVEX-2018-16509",
@@ -142,7 +142,7 @@
         "authors":["Trevillie"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-018/target", "ghcr.io/ucsb-seclab/cvex-210825-018/exploiter"],
-        "description": "TBD"
+        "description": "An issue was discovered in Artifex Ghostscript before 9.24. Incorrect 'restoration of privilege' checking during handling of /invalidaccess exceptions could be used by attackers able to supply crafted PostScript to execute code using the 'pipe' instruction."
     },
     {
         "id" : "CVEX-2017-12650",
@@ -151,7 +151,7 @@
         "authors":["robmcl4"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-019/target", "ghcr.io/ucsb-seclab/cvex-210825-019/exploiter"],
-        "description": "TBD"
+        "description": "SQL Injection exists in the Loginizer plugin before 1.3.6 for WordPress via the X-Forwarded-For HTTP header."
     },
     {
         "id" : "CVEX-2018-16509",
@@ -160,7 +160,7 @@
         "authors":["xavierholt"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-020/target", "ghcr.io/ucsb-seclab/cvex-210825-020/exploiter"],
-        "description": "TBD"
+        "description": "An issue was discovered in Artifex Ghostscript before 9.24. Incorrect 'restoration of privilege' checking during handling of /invalidaccess exceptions could be used by attackers able to supply crafted PostScript to execute code using the 'pipe' instruction."
     },
     {
         "id" : "CVEX-2018-16509",
@@ -169,7 +169,7 @@
         "authors":["xavierholt"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-021/target", "ghcr.io/ucsb-seclab/cvex-210825-021/exploiter"],
-        "description": "TBD"
+        "description": "An issue was discovered in Artifex Ghostscript before 9.24. Incorrect 'restoration of privilege' checking during handling of /invalidaccess exceptions could be used by attackers able to supply crafted PostScript to execute code using the 'pipe' instruction."
     },
     {
         "id" : "CVEX-2018-19475",
@@ -178,7 +178,7 @@
         "authors":["xavierholt"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-022/target", "ghcr.io/ucsb-seclab/cvex-210825-022/exploiter"],
-        "description": "TBD"
+        "description": "psi/zdevice2.c in Artifex Ghostscript before 9.26 allows remote attackers to bypass intended access restrictions because available stack space is not checked when the device remains the same."
     },
     {
         "id" : "CVEX-2019-6116",
@@ -187,7 +187,7 @@
         "authors":["xavierholt"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-023/target", "ghcr.io/ucsb-seclab/cvex-210825-023/exploiter"],
-        "description": "TBD"
+        "description": "In Artifex Ghostscript through 9.26, ephemeral or transient procedures can allow access to system operators, leading to remote code execution"
     },
     {
         "id" : "CVEX-2018-11776",
@@ -196,7 +196,7 @@
         "authors":["ruaronicola"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-024/target", "ghcr.io/ucsb-seclab/cvex-210825-024/exploiter"],
-        "description": "TBD"
+        "description": "Apache Struts versions 2.3 to 2.3.34 and 2.5 to 2.5.16 suffer from possible Remote Code Execution when alwaysSelectFullNamespace is true (either by user or a plugin like Convention Plugin) and then: results are used with no namespace and in same time, its upper package have no or wildcard namespace and similar to results, same possibility when using url tag which doesn't have value and action set and in same time, its upper package have no or wildcard namespace."
     },
     {
         "id" : "CVEX-2019-15107",
@@ -205,7 +205,7 @@
         "authors":["dipanjan"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-025/target", "ghcr.io/ucsb-seclab/cvex-210825-025/exploiter"],
-        "description": "TBD"
+        "description": "An issue was discovered in Webmin <=1.920. The parameter old in password_change.cgi contains a command injection vulnerability."
     },
     {
         "id" : "CVEX-2019-9193",
@@ -214,7 +214,7 @@
         "authors":["xavierholt"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-026/target", "ghcr.io/ucsb-seclab/cvex-210825-026/exploiter"],
-        "description": "TBD"
+        "description": "In PostgreSQL 9.3 through 11.2, the 'COPY TO/FROM PROGRAM' function allows superusers and users in the 'pg_execute_server_program' group to execute arbitrary code in the context of the database's operating system user. This functionality is enabled by default and can be abused to run arbitrary operating system commands on Windows, Linux, and macOS. NOTE: Third parties claim/state this is not an issue because PostgreSQL functionality for ‘COPY TO/FROM PROGRAM’ is acting as intended. References state that in PostgreSQL, a superuser can execute commands as the server user without using the ‘COPY FROM PROGRAM’."
     
     },
     {
@@ -224,7 +224,7 @@
         "authors":["xavierholt"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-027/target", "ghcr.io/ucsb-seclab/cvex-210825-027/exploiter"],
-        "description": "TBD"
+        "description": "GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka 'ShellShock.' NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix."
     },
     {
         "id" : "CVEX-2015-3306",
@@ -233,7 +233,7 @@
         "authors":["rjt-gupta"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-028/target", "ghcr.io/ucsb-seclab/cvex-210825-028/exploiter"],
-        "description": "TBD"
+        "description": "The mod_copy module in ProFTPD 1.3.5 allows remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands."
     },
     {
         "id" : "CVEX-2017-5941",
@@ -242,7 +242,7 @@
         "authors":["rjt-gupta"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-029/target", "ghcr.io/ucsb-seclab/cvex-210825-029/exploiter"],
-        "description": "TBD"
+        "description": "An issue was discovered in the node-serialize package 0.0.4 for Node.js. Untrusted data passed into the unserialize() function can be exploited to achieve arbitrary code execution by passing a JavaScript Object with an Immediately Invoked Function Expression (IIFE)."
     },
     {
         "id" : "CVEX-2020-5192",
@@ -251,7 +251,7 @@
         "authors":["dipanjan"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-030/target", "ghcr.io/ucsb-seclab/cvex-210825-030/exploiter"],
-        "description": "TBD"
+        "description": "PHPGurukul Hospital Management System in PHP v4.0 suffers from multiple SQL injection vulnerabilities: multiple pages and parameters are not validating user input, and allow for the application's database and information to be fully compromised."
     },
     {
         "id" : "CVEX-2020-25487",
@@ -260,7 +260,7 @@
         "authors":["dipanjan"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-031/target", "ghcr.io/ucsb-seclab/cvex-210825-031/exploiter"],
-        "description": "TBD"
+        "description": "PHPGURUKUL Zoo Management System Using PHP and MySQL version 1.0 is affected by: SQL Injection via zms/animal-detail.php."
     },
     {
         "id" : "CVEX-2020-29283",
@@ -269,7 +269,7 @@
         "authors":["PriyankaBose"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-032/target", "ghcr.io/ucsb-seclab/cvex-210825-032/exploiter"],
-        "description": "TBD"
+        "description": "An SQL injection vulnerability was discovered in Online Doctor Appointment Booking System PHP and Mysql via the q parameter to getuser.php."
     },
     {
         "id" : "CVEX-2019-6340",
@@ -278,7 +278,7 @@
         "authors":["ruaronicola"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-033/target", "ghcr.io/ucsb-seclab/cvex-210825-033/exploiter"],
-        "description": "TBD"
+        "description": "Some field types do not properly sanitize data from non-form sources in Drupal 8.5.x before 8.5.11 and Drupal 8.6.x before 8.6.10. This can lead to arbitrary PHP code execution in some cases. A site is only affected by this if one of the following conditions is met: The site has the Drupal 8 core RESTful Web Services (rest) module enabled and allows PATCH or POST requests, or the site has another web services module enabled, like JSON:API in Drupal 8, or Services or RESTful Web Services in Drupal 7. (Note: The Drupal 7 Services module itself does not require an update at this time, but you should apply other contributed updates associated with this advisory if Services is in use.)"
     },
     {
         "id" : "CVEX-2017-17405",
@@ -287,7 +287,7 @@
         "authors":["Trevillie"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-034/target", "ghcr.io/ucsb-seclab/cvex-210825-034/exploiter"],
-        "description": "TBD"
+        "description": "Ruby before 2.4.3 allows Net::FTP command injection. Net::FTP#get, getbinaryfile, gettextfile, put, putbinaryfile, and puttextfile use Kernel#open to open a local file. If the localfile argument starts with the '|'' pipe character, the command following the pipe character is executed. The default value of localfile is File.basename(remotefile), so malicious FTP servers could cause arbitrary command execution."
     },
     {
         "id" : "CVEX-2018-8733",
@@ -296,7 +296,7 @@
         "authors": ["9yte"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-035/target", "ghcr.io/ucsb-seclab/cvex-210825-035/exploiter"],
-        "description": "TBD"
+        "description": "Authentication bypass vulnerability in the core config manager in Nagios XI 5.2.x through 5.4.x before 5.4.13 allows an unauthenticated attacker to make configuration changes and leverage an authenticated SQL injection vulnerability."
     },
     {
         "id" : "CVEX-2018-7600",
@@ -305,7 +305,7 @@
         "authors": ["pagabuc"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-036/target", "ghcr.io/ucsb-seclab/cvex-210825-036/exploiter"],
-        "description": "TBD"
+        "description": "Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1 allows remote attackers to execute arbitrary code because of an issue affecting multiple subsystems with default or common module configurations."
     },
     {
         "id" : "CVEX-2019-15715",
@@ -314,7 +314,7 @@
         "authors": ["gal1ium"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-037/target", "ghcr.io/ucsb-seclab/cvex-210825-037/exploiter"],
-        "description": "TBD"
+        "description": "MantisBT before 1.3.20 and 2.22.1 allows Post Authentication Command Injection, leading to Remote Code Execution."
     },
     {
         "id" : "CVEX-2018-17181",
@@ -323,7 +323,7 @@
         "authors": ["pagabuc", "f-kalantari"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-038/target", "ghcr.io/ucsb-seclab/cvex-210825-038/exploiter"],
-        "description": "TBD"
+        "description": "An issue was discovered in OpenEMR before 5.0.1 Patch 7. SQL Injection exists in the SaveAudit function in /portal/lib/paylib.php and the portalAudit function in /portal/lib/appsql.class.php."
     },
     {
         "id" : "CVEX-2018-15143",
@@ -332,7 +332,7 @@
         "authors": ["pagabuc", "f-kalantari"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-039/target", "ghcr.io/ucsb-seclab/cvex-210825-039/exploiter"],
-        "description": "TBD"
+        "description": "Multiple SQL injection vulnerabilities in portal/find_appt_popup_user.php in versions of OpenEMR before 5.0.1.4 allow a remote attacker to execute arbitrary SQL commands via the (1) catid or (2) providerid parameter."
     },
     {
         "id" : "CVEX-2018-15145",
@@ -341,7 +341,7 @@
         "authors": ["pagabuc", "f-kalantari"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-040/target", "ghcr.io/ucsb-seclab/cvex-210825-040/exploiter"],
-        "description": "TBD"
+        "description": "Multiple SQL injection vulnerabilities in portal/add_edit_event_user.php in versions of OpenEMR before 5.0.1.4 allow a remote attacker to execute arbitrary SQL commands via the (1) eid, (2) userid, or (3) pid parameter."
     },
     {
         "id" : "CVEX-2018-17179",
@@ -350,7 +350,7 @@
         "authors": ["pagabuc", "robmcl4"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-041/target", "ghcr.io/ucsb-seclab/cvex-210825-041/exploiter"],
-        "description": "TBD"
+        "description": "An issue was discovered in OpenEMR before 5.0.1 Patch 7. There is SQL Injection in the make_task function in /interface/forms/eye_mag/php/taskman_functions.php via /interface/forms/eye_mag/taskman.php."
     },
     {
         "id" : "CVEX-2018-15144",
@@ -359,7 +359,7 @@
         "authors": ["pagabuc", "robmcl4"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-042/target", "ghcr.io/ucsb-seclab/cvex-210825-042/exploiter"],
-        "description": "TBD"
+        "description": "SQL injection vulnerability in interface/de_identification_forms/find_drug_popup.php in versions of OpenEMR before 5.0.1.4 allows a remote authenticated attacker to execute arbitrary SQL commands via the search_term parameter."
     },
     {
         "id" : "CVEX-2018-15146",
@@ -368,7 +368,7 @@
         "authors": ["pagabuc", "robmcl4"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-043/target", "ghcr.io/ucsb-seclab/cvex-210825-043/exploiter"],
-        "description": "TBD"
+        "description": "SQL injection vulnerability in interface/de_identification_forms/find_immunization_popup.php in versions of OpenEMR before 5.0.1.4 allows a remote authenticated attacker to execute arbitrary SQL commands via the 'search_term' parameter."
     },
     {
         "id" : "CVEX-2018-15147",
@@ -377,7 +377,7 @@
         "authors": ["pagabuc", "robmcl4"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-044/target", "ghcr.io/ucsb-seclab/cvex-210825-044/exploiter"],
-        "description": "TBD"
+        "description": "SQL injection vulnerability in interface/forms_admin/forms_admin.php from library/registry.inc in versions of OpenEMR before 5.0.1.4 allows a remote authenticated attacker to execute arbitrary SQL commands via the 'id' parameter."
     },
     {
         "id" : "CVEX-2018-15148",
@@ -386,7 +386,7 @@
         "authors": ["pagabuc", "robmcl4"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-045/target", "ghcr.io/ucsb-seclab/cvex-210825-045/exploiter"],
-        "description": "TBD"
+        "description": "SQL injection vulnerability in interface/patient_file/encounter/search_code.php in versions of OpenEMR before 5.0.1.4 allows a remote authenticated attacker to execute arbitrary SQL commands via the 'text' parameter."
     },
     {
         "id" : "CVEX-2018-15149",
@@ -395,7 +395,7 @@
         "authors": ["pagabuc", "robmcl4"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-046/target", "ghcr.io/ucsb-seclab/cvex-210825-046/exploiter"],
-        "description": "TBD"
+        "description": "SQL injection vulnerability in interface/forms/eye_mag/php/Anything_simple.php from library/forms.inc in versions of OpenEMR before 5.0.1.4 allows a remote authenticated attacker to execute arbitrary SQL commands via the 'encounter' parameter."
     },
     {
         "id" : "CVEX-2018-15151",
@@ -404,7 +404,7 @@
         "authors": ["pagabuc", "robmcl4"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-047/target", "ghcr.io/ucsb-seclab/cvex-210825-047/exploiter"],
-        "description": "TBD"
+        "description": "SQL injection vulnerability in interface/de_identification_forms/find_code_popup.php in versions of OpenEMR before 5.0.1.4 allows a remote authenticated attacker to execute arbitrary SQL commands via the 'search_term' parameter."
     },
     {
         "id" : "CVEX-2018-15150",
@@ -413,7 +413,7 @@
         "authors": ["pagabuc", "robmcl4"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-048/target", "ghcr.io/ucsb-seclab/cvex-210825-048/exploiter"],
-        "description": "TBD"
+        "description": "SQL injection vulnerability in interface/de_identification_forms/de_identification_screen2.php in versions of OpenEMR before 5.0.1.4 allows a remote authenticated attacker to execute arbitrary SQL commands via the 'temporary_files_dir' variable in interface/super/edit_globals.php."
     },
     {
         "id" : "CVEX-2018-15153",
@@ -422,7 +422,7 @@
         "authors": ["pagabuc", "robmcl4"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-049/target", "ghcr.io/ucsb-seclab/cvex-210825-049/exploiter"],
-        "description": "TBD"
+        "description": "OS command injection occurring in versions of OpenEMR before 5.0.1.4 allows a remote authenticated attacker to execute arbitrary commands by making a crafted request to interface/main/daemon_frame.php after modifying the 'hylafax_server' global variable in interface/super/edit_globals.php."
     },
     {
         "id" : "CVEX-2021-41773",
@@ -431,7 +431,7 @@
         "authors": ["etrickel"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-210825-050/target", "ghcr.io/ucsb-seclab/cvex-210825-050/exploiter"],
-        "description": "TBD"
+        "description": "A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration 'require all denied', these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013."
     },
     {
         "id" : "CVEX-2021-41773",
@@ -440,7 +440,7 @@
         "authors": ["pagabuc"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-211021-001/target", "ghcr.io/ucsb-seclab/cvex-211021-001/exploiter"],
-        "description": "TBD"
+        "description": "WebSVN before 2.6.1 allows remote attackers to execute arbitrary commands via shell metacharacters in the search parameter."
     },
     {
         "id" : "CVEX-2021-41773",
@@ -449,7 +449,7 @@
         "authors": ["Zion L. Basque", "Paul Emge"],
         "version": 1.0,
         "images": ["ghcr.io/ucsb-seclab/cvex-211109-001/target", "ghcr.io/ucsb-seclab/cvex-211109-001/exploiter"],
-        "description": "TBD"
+        "description": "Denial of Service (DOS) in Dial Reference Source Code Used before June 18th, 2019."
     }
   ]
 }
