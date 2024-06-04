@@ -5,6 +5,7 @@ This static HUGO website serves as a database of completed CVEXes. These CVEXes 
 Special thanks to Noah Spahn, Professor Giovanni Vigna, and Professor Christopher Kruegel, and UCSB SecLab.
 
 [Website Link](https://ucsb-seclab.github.io/xplor-cvex/)
+
 [CVEX Repository](https://github.com/ucsb-seclab/cvex-xplor)
 
 # What is a CVEX?
