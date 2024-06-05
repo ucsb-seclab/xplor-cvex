@@ -7,6 +7,13 @@ url: /
 ### What is a CVEX?
 CVEX is an executable that runs a software exploit and outputs relevant data in the form of network traffic. Each CVEX is packaged in the form of a Docker container, which has the benefit of being convenient and compatible with any operating system. As a result, CVEXes can be run and analyzed by any person curious to understand the workings of a software vulnerability.
 
+### How to run a CVEX
+1. Pull from the GitHub Container Registry (GHCR):  
+&nbsp;&nbsp;a. 'docker pull ghcr.io/ucsb-seclab/NAME_OF_CONTAINER:TAG'  
+&nbsp;&nbsp;b. for example, 'docker pull ghcr.io/ucsb-seclab/demo/client:latest'  
+&nbsp;&nbsp;c. check each container's README for more details
+2. Or (for v2 only): pull from the Github and run as instructed in the README
+
 <!-- ![CVEX](./images/cvex.png#center) -->
 
 ### Our Mission
