@@ -11,7 +11,8 @@ CVEX is an executable that runs a software exploit and outputs relevant data in 
 1. Pull from the GitHub Container Registry (GHCR):  
 &nbsp;&nbsp;a. 'docker pull ghcr.io/ucsb-seclab/NAME_OF_CONTAINER:TAG'  
 &nbsp;&nbsp;b. for example, 'docker pull ghcr.io/ucsb-seclab/demo/client:latest'  
-&nbsp;&nbsp;c. check each container's README for more details, and [for help on ghcr](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry#pulling-container-images) 
+&nbsp;&nbsp;c. go to the github linked to the CVEX and pull the docker-compose file, then run using the command 'docker compose up'
+&nbsp;&nbsp;d. check each container's README for more details, and [for help on ghcr](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry#pulling-container-images)  
 
 2. Or (for v2 only): pull from the Github and run as instructed in the README
 
