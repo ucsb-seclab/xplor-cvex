@@ -11,7 +11,7 @@ CVEX is an executable that runs a software exploit and outputs relevant data in 
 
 ### Our Mission
 
-#### We aim to extract more information from each CVE vulnerabilitity by tranforming this...
+#### We aim to extract more information from each CVE vulnerability by tranforming this...
 
 ![Before](./images/zoom.png#center)
 
