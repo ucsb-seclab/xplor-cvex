@@ -23,8 +23,7 @@
           <tr>
             <td><tt>{{ .id }}</tt></td>
             <td><strong>Author |</strong> <tt>{{ delimit .authors ", " }}</tt> <br> {{.description}}</td>
-            <!-- <td><code>{{ delimit .images ", " }}</code></td> -->
-            <td><code>{{ range .images }}{{.}}<br>{{end}}</code></td>
+            <td><strong>Domain | </strong>ghcr.io/ucsb-seclab<details><small><tt>{{ range .images }}{{.}}<br>{{end}}</tt></small></details></td>
             
           </tr>
           {{- end}}

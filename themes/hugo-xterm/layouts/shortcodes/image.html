@@ -1,5 +1,6 @@
 {{ if .Get "src" }}
-  <img
+<div class="center">
+<img
     src="{{ .Get "src" | safeURL }}"
     {{ with .Get "alt" }}alt="{{ . | plainify }}"{{ end }}
     class="{{ with .Get "position" }}
@@ -9,4 +10,5 @@
     {{- end }}"
     {{ with .Get "style" }}style="{{ . | safeCSS }}"{{ end }}
   />
+</div>  
 {{ end }}

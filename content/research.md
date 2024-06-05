@@ -1,5 +1,5 @@
 ---
-title: About Xplor CVEX
+title: About the Problem
 description: 
 layout: single
 url: /research/
@@ -7,14 +7,16 @@ url: /research/
 
 # Problem Statement
 Though the CVE framework standardizes historical security vulnerabilities found across various corporations, it does not provide enough information for researchers or other developers to understand the
-vulnerability and how it’s exploited from a technical, and practical level. It lacks details ranging from
-analyses of port mappings and network traffic to remote code execution scripts, all of which may serve
-towards an elevated understanding of security vulnerabilities and exploits for future security patches.
+vulnerability and how it’s exploited from a technical standpoint. Oftentimes, the documentation lacks details ranging from
+analyses of network traffic, to stack traces, to control flow graphs, to remote code execution scripts, all of which may serve to elevate our understanding of digital security vulnerabilities and exploits for future security patches and protective measures.
 Studies have shown that being able to simulate or reproduce a vulnerability is key to a better understanding of each vulnerability, which ultimately results in faster, more efficient patching workflows [2].
-Currently, there is no standardized method to reproduce cybersecurity vulnerabilities, nor is there a data
-set that links a security vulnerability with an executable to simulate it. Research on this idea is limited
-due to its novelty and most disclosed vulnerabilities do not have the depth of information required to effectively rebuild them, whether due to the lack of transparency from the corporations that discovery such
-vulnerabilities or its lack of documentation. 
+
+![Image](/images/poster.png)
+
+Existing methods to reproduce cybersecurity vulnerabilities remain limited and have yet to be fully standardized and integrated into the CVE historical database. 
+The implementation for symbolic execution of CVEs requires oftentimes require manual efforts, which can be consuming and expensive to carry out. Various disclosed vulnerabilities oftentimes do not have the depth of information and stack traces required to effectively reproduce the vulnerability, whether its due to the lack of transparency from the corporations that discover them or lack of documentation. 
+
+![Image](/images/zoom.png)
 
 Previous attempts to reproduce vulnerabilities have been oriented towards more specific contexts. For instance, Analyzing Vulnerability Reproducibility for the Firefox
 Browser [3] primarily targets the analysis and prediction of vulnerabilities within the Firefox browser’s
