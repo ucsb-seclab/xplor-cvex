@@ -6,7 +6,7 @@
     "authors":["racheljiang310"],
     "version": 2.0,
     "domain": "ghcr.io/ucsb-seclab",
-    "link": "https://github.com/ucsb-seclab/cvex-xplor/tree/main/prototype-cvex",
+    "link": "https://github.com/ucsb-seclab/cvex-xplor/blob/main/compose-files/cvex-xplor.docker-compose.yml",
     "images": ["demo/client", "demo/server", "demo/listener"],
     "description": "A Proof of Concept Demonstration of our CVEX model/framework",
     "page": "/CVEX-XPLOR/"
@@ -17,7 +17,7 @@
     "authors":["racheljiang310"],
     "version": 2.0,
     "domain": "ghcr.io/ucsb-seclab",
-    "link": "https://github.com/ucsb-seclab/cvex-xplor/blob/main/compose-files/docker-compose.cvex-2017-1000499.yml",
+    "link": "https://github.com/ucsb-seclab/cvex-xplor/blob/main/CVEX-2017-1000499/docker-compose.yml",
     "images": ["cvex-2017-1000499/client", "cvex-2017-1000499/server", "cvex-2017-1000499/db", "cvex-2017-1000499/listener"],
     "description": "phpMyAdmin versions 4.7.x (prior to 4.7.6.1/4.7.7) are vulnerable to a CSRF weakness. By deceiving a user to click on a crafted URL, it is possible to perform harmful database operations such as deleting records, dropping/truncating tables etc.",
     "page": "/CVEX-2017-1000499/"
@@ -28,7 +28,7 @@
     "authors":["racheljiang310"],
     "version": 2.0,
     "domain": "ghcr.io/ucsb-seclab",
-    "link": "https://github.com/ucsb-seclab/cvex-xplor/blob/main/compose-files/docker-compose.cvex-2023-28155.yml",
+    "link": "https://github.com/ucsb-seclab/cvex-xplor/blob/main/CVEX-2023-28155/docker-compose.yml",
     "images": ["cvex-2023-28155/listener", "cvex-2023-28155/client", "cvex-2023-28155/bad_server", "cvex-2023-28155/php_server"],
     "description": "The Request package through 2.88.1 for Node.js allows a bypass of SSRF mitigations via an attacker-controller server that does a cross-protocol redirect (HTTP to HTTPS, or HTTPS to HTTP). This vulnerability only affects products that are no longer supported by the maintainer.",
     "page": "/CVEX-2023-28155/"
@@ -39,7 +39,7 @@
     "authors":["racheljiang310"],
     "version": 2.0,
     "domain": "ghcr.io/ucsb-seclab",
-    "link": "https://github.com/ucsb-seclab/cvex-xplor/blob/main/compose-files/docker-compose.cvex-2017-1000499.yml",
+    "link": "https://github.com/ucsb-seclab/cvex-xplor/blob/main/CVEX-2023-31419/docker-compose.yml",
     "images": ["cvex-2023-31419/client","cvex-2023-31419/server","cvex-2023-31419/listener"],
     "description": "A flaw was discovered in Elasticsearch, affecting the _search API that allowed a specially crafted query string to cause a Stack Overflow and ultimately a Denial of Service.",
     "page": "/CVEX-2023-31419/"
@@ -50,7 +50,7 @@
     "authors":["racheljiang310"],
     "version": 2.0,
     "domain": "ghcr.io/ucsb-seclab",
-    "link":"https://github.com/ucsb-seclab/cvex-xplor/blob/main/compose-files/docker-compose.cvex-2023-42282.yml",
+    "link":"https://github.com/ucsb-seclab/cvex-xplor/blob/main/CVEX-2023-42282/docker-compose.yml",
     "images": ["cvex-2023-42282/client", "cvex-2023-42282/server", "cvex-2023-42282/listener"],
     "description": "The ip package before 1.1.9 for Node.js might allow SSRF because some IP addresses (such as 0x7f.1) are improperly categorized as globally routable via isPublic.",
     "page": "/CVEX-2023-42282/"
@@ -61,7 +61,7 @@
     "authors":["racheljiang310"],
     "version": 2.0,
     "domain": "ghcr.io/ucsb-seclab",
-    "link": "https://github.com/ucsb-seclab/cvex-xplor/blob/main/compose-files/docker-compose.cvex-2024-21508.yml",
+    "link": "https://github.com/ucsb-seclab/cvex-xplor/blob/main/CVEX-2024-21508/docker-compose.yml",
     "images": ["cvex-2023-42282/client", "cvex-2023-42282/server", "cvex-2023-42282/listener"],
     "description": "Found in versions of the mysql2 <= 3.9.4, this vulnerability allows for Remote Code Execution (RCE) through the readCodeFor function, due to improper validation of the supportBigNumbers and bigNumberStrings values. The potential impact includes high integrity and confidentiality impact, as well as high availability impact.",
     "page": "/CVEX-2024-21508/"
