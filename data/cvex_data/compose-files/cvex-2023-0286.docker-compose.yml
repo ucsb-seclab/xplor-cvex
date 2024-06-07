@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  c_program:
+    image: ghcr.io/ucsb-seclab/cvex-2023-0286/c_program
+    volumes:
+      - ./:/usr/src/app
+        #command: gcc -o program main.c && ./program

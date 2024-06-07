@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  server:
+    image: ghcr.io/ucsb-seclab/demo/server
+    ports:
+      - "8080:8080"
+    networks:
+      - my_network
+
+  client:
+    image: ghcr.io/ucsb-seclab/demo/client
+    depends_on:
+      - server
+    networks:
+      - my_network
+
+  listener:
+    image: ghcr.io/ucsb-seclab/demo/listener
+    depends_on:
+      - client
+      - server
+    cap_add:
+      - NET_RAW
+      - NET_ADMIN
+    network_mode: host
+    privileged: true
+    volumes:
+      - ./listener/traffic:/traffic
+
+networks:
+  my_network:
+    driver: bridge
+
+volumes:
+  logs:

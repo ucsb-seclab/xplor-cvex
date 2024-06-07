@@ -1,0 +1,40 @@
+version: "3"
+services:
+  server:
+    image: ghcr.io/ucsb-seclab/cvex-2023-42282/server
+    ports:
+      - "8080:8080"
+    networks:
+      node-network:
+        ipv6_address: "fd00:0:0:1::2"
+  client:
+    image: ghcr.io/ucsb-seclab/cvex-2023-42282/client
+    depends_on:
+      - server
+    networks:
+      - node-network
+  listener:
+    image: ghcr.io/ucsb-seclab/cvex-2023-42282/listener
+    depends_on:
+      - server
+      - client
+    cap_add:
+      - NET_RAW
+      - NET_ADMIN
+    network_mode: host
+    privileged: true
+    volumes:
+      - ./listener/traffic:/traffic
+
+volumes:
+  logs:
+
+networks:
+  node-network:
+    driver: bridge
+    enable_ipv6: true
+    ipam:
+      driver: default
+      config:
+        - subnet: "fd00:0:0:1::/64"   # Define the IPv6 subnet for the network
+          gateway: "fd00:0:0:1::1"    # Specify the gateway for the IPv6 subnet

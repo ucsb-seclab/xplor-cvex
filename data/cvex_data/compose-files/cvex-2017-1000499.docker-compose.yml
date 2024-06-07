@@ -1,0 +1,47 @@
+version: '3'
+
+services:
+  db:
+    image: ghcr.io/ucsb-seclab/cvex-2017-1000499/db
+    restart: on-failure
+    networks:
+      - phpMyAdmin-network
+    ports:
+      - "3306:3306"
+
+  server:
+    image: ghcr.io/ucsb-seclab/cvex-2017-1000499/server
+    networks:
+      - phpMyAdmin-network
+    restart: on-failure
+    ports:
+      - "80:80"
+    depends_on:
+      - db
+  
+  client:
+    image: ghcr.io/ucsb-seclab/cvex-2017-1000499/client
+    networks:
+      - phpMyAdmin-network
+    restart: always
+    depends_on:
+      - db
+      - server
+  
+  listener:
+    image: ghcr.io/ucsb-seclab/cvex-2017-1000499/listener
+    depends_on:
+      - db
+      - server
+      - client
+    cap_add:
+      - NET_RAW
+      - NET_ADMIN
+    network_mode: host
+    privileged: true
+    volumes:
+      - ./listener/traffic:/traffic
+
+networks:
+  phpMyAdmin-network:
+    driver: bridge

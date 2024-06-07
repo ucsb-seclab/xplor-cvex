@@ -1,0 +1,40 @@
+version: '3.9'
+
+services:
+  server:
+    image: ghcr.io/ucsb-seclab/cvex-2023-31419/server
+    ports:
+      - "80:80"
+      - "8080:8080"
+    environment:
+      - discovery.type=single-node
+    networks:
+      elastic-network:
+
+  client:
+    image: ghcr.io/ucsb-seclab/cvex-2023-31419/client
+    depends_on:
+      - server
+    networks:
+      - elastic-network
+  listener:
+    image: ghcr.io/ucsb-seclab/cvex-2023-31419/listener
+    cap_add:
+      - NET_ADMIN
+    depends_on:
+      - server
+      - client
+    volumes:
+      - "./logs:/tcpdump"
+    networks:
+      - elastic-network
+networks:
+  elastic-network:
+    driver: bridge
+    enable_ipv6: true
+    ipam:
+      driver: default
+      config:
+        - subnet: "fd00:0:0:1::/64"   # Define the IPv6 subnet for the network
+          gateway: "fd00:0:0:1::1"    # Specify the gateway for the IPv6 subnet
+

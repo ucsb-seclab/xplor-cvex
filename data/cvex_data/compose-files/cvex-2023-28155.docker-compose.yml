@@ -1,0 +1,45 @@
+version: '3'
+
+services:
+  php_server:
+    image: ghcr.io/ucsb-seclab/cvex-2023-28155/php_server
+    restart: on-failure
+    ports:
+      - "80:80"
+    networks:
+      - ssrf_network
+
+  bad_server:
+    image: ghcr.io/ucsb-seclab/cvex-2023-28155/bad_server
+    restart: on-failure
+    ports:
+      - "8080:8080"
+    networks:
+      - ssrf_network
+
+  client:
+    image: ghcr.io/ucsb-seclab/cvex-2023-28155/client
+    networks:
+      - ssrf_network
+    restart: always
+    depends_on:
+      - bad_server
+      - php_server
+  
+  listener:
+    image: ghcr.io/ucsb-seclab/cvex-2023-28155/listener
+    depends_on:
+      - php_server
+      - bad_server
+      - client
+    cap_add:
+      - NET_RAW
+      - NET_ADMIN
+    network_mode: host
+    privileged: true
+    volumes:
+      - ./listener/traffic:/traffic
+
+networks:
+  ssrf_network:
+    driver: bridge
