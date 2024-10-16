@@ -1,3 +1,5 @@
+## Archived on October 16th, since the next generation of CVEX (inspired by this project) is going live.
+
 # CVEX: Common Vulnerability and Exposure Executable
 
 This static HUGO website serves as a database of completed CVEXes. These CVEXes were created by Team Kruegel & Vigna, 4 undergraduate researchers affiliated with UCSB's Early Research Scholars Program 2023-2024 cohort.
